@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* for nav bar */
+    .main-nav{
+        @apply fixed w-full overflow-hidden shadow top-0 left-0 bg-white z-50;
+    }
+    .nav_bar{
+        @apply px-5 sm:px-10 lg:px-0 lg:max-w-[1000px] xl:max-w-[1100px] 2xl:max-w-[1300px] mx-auto relative;
+    }
+    .nav_logo{
+        @apply font-semibold w-[200px] min-h-[60px] lg:min-h-[75px] bg-[#2f2b3f] flex items-center text-white;
+        z-index: 100;
+        font-size: 20px;
+        position: relative;
+    }
+    .nav_logo::before{
+        content: " ";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        @apply bg-[#2f2b3f] min-h-[60px] lg:min-h-[75px] w-[210px] 2xl:w-[450px] left-[-100%] 2xl:left-[-200%];
+    }
+    .nav_logo::after{
+        content: " ";
+        width: 50px;
+        height: 100px;
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        right: -25px;
+        @apply bg-white min-h-[60px] lg:min-h-[75px];
+        transform: rotate(30deg);
+    }
+    .nav_links{
+        z-index: 1000;
+        @apply list-none flex flex-col lg:flex-row justify-center gap-1 lg:gap-6 fixed lg:relative top-[0px] lg:top-[0] left-[-100%] lg:left-0 w-[100%]
+         lg:w-auto min-h-[100vh] lg:min-h-[0] bg-[#3a3845e6] lg:bg-white transition-all duration-300;
+    }
+    .nav_links.show{
+        @apply left-0;
+    }
+
+    .nav_links li{
+        @apply font-medium my-5 lg:my-0 text-center text-white lg:text-black;
+    }
+    .nav_btn{
+        max-width: max-content;
+        @apply px-5 py-2 bg-[#2f2b3f] text-white rounded;
+    }
+
+    .nav_menu_icon{
+        @apply font-semibold text-white absolute top-[30px] right-[30px];
+
+    }
+
+
+/* for pages section  */
+    .all_pages{
+        @apply px-5 sm:px-10 lg:px-0 lg:max-w-[1000px] xl:max-w-[1100px] 2xl:max-w-[1300px] mx-auto overflow-hidden;
+    }
+    .about{
+        min-height: calc(100vh - 0px);
+        @apply w-full pt-[80px] md:pt-[100px] lg:pt-[70px] lg:flex lg:flex-col justify-center;
+    }
+
+    
+    .contact{
+        min-height: 30vh;
+        @apply mt-[80px];
+    }
+
+    .ct_body{
+        @apply px-5 sm:px-10 lg:px-0 lg:max-w-[1000px] xl:max-w-[1100px] 2xl:max-w-[1300px] mx-auto overflow-hidden;
+    }
+
+
+    .service_card{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+
+    .service_card:hover{
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }

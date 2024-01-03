@@ -1,0 +1,12 @@
+
+.home{
+    @apply w-full pt-[120px] md:pt-[200px] lg:pt-0 min-h-full lg:min-h-[100vh] flex flex-col-reverse lg:flex-row;
+}
+
+.h_main{
+    @apply w-full lg:w-1/2 h-auto lg:h-screen flex items-center;
+}
+
+.h_btn{
+    @apply bg-[#7c2d12] px-3 py-2 text-center md:py-2 text-white rounded-[8px] w-[120px];
+}

@@ -1,0 +1,15 @@
+
+.service{
+    @apply min-h-[100vh] pt-[90px] lg:pt-[130px];
+}
+
+.sv_header{
+    @apply text-black font-semibold relative text-[20px] w-[100px];
+}
+
+.sv_header::before{
+    content: " ";
+    width: 80px;
+    height: 3px;
+    @apply bg-[#c45735] absolute right-[-90%] bottom-2;
+}

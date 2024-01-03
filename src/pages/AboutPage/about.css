@@ -1,0 +1,15 @@
+
+.ab_main{
+    @apply bg-white;
+}
+
+.ab_header{
+    @apply text-black font-semibold relative text-[20px] w-[110px];
+}
+
+.ab_header::before{
+    content: " ";
+    width: 80px;
+    height: 3px;
+    @apply bg-[#c45735] absolute right-[-90%] bottom-2;
+}
