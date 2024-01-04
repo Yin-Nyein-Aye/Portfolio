@@ -15,7 +15,7 @@ const projectsData=[
     id:1,
     title:"Event Management System",
     image: <img src={dashboardImg} alt="" className='w-100 h-100 shadow-lg h-auto rounded-[8px]'  style={{ width: '350px', height: '250px' }} />,
-    url: "https://swd-login-dashboard.netlify.app/"
+    url: ""
   },
   {
     id:2,
@@ -33,7 +33,7 @@ const projectsData=[
     id:4,
     title:"Restaurant Management System",
     image: <img src={foodyImg} alt="" className='w-100 shadow-lg h-auto rounded-[8px]'  style={{ width: '350px', height: '250px' }} />,
-    url:"https://swd-redux-mini-shopping.netlify.app/"
+    url:"https://www.youtube.com/watch?v=5FXDr1WAHp0&t=624s"
   }
 ];
 
