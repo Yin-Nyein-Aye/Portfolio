@@ -15,7 +15,7 @@ const projectsData=[
     id:1,
     title:"Event Management System",
     image: <img src={dashboardImg} alt="" className='w-100 h-100 shadow-lg h-auto rounded-[8px]'  style={{ width: '350px', height: '250px' }} />,
-    url: ""
+    url: "https://dailyneeditems.com/"
   },
   {
     id:2,
