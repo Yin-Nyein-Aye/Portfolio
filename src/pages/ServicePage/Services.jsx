@@ -37,13 +37,13 @@ const servicesData=[
   {
     id:4,
     title:"Mockup",
-    description:"UI is an important thing for users. And it is also need to friendly with user. Don't worry for it. I can provide the best for UI",
+    description:"Mock-ups are versatile tools that contribute to efficient and effective design and development processes by facilitating communication, visualization, testing, and collaboration throughout a project's lifecycle.",
     icon:<LiaChalkboardSolid size={30} className='text-[#c45735]' />
   },
   {
     id:5,
     title:"Responsive",
-    description:"mock-ups are versatile tools that contribute to efficient and effective design and development processes by facilitating communication, visualization, testing, and collaboration throughout a project's lifecycle.",
+    description:"Responsive design ensures that your website or application looks and functions well on any device, whether it's a desktop, laptop, tablet, or smartphone. This adaptability leads to a consistent and seamless user experience, regardless of the device being used.",
     icon:<BsVectorPen size={30} className='text-[#c45735]' />
   },
   {

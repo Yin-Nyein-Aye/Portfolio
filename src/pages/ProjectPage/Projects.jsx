@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import dashboardImg from "../../assets/imgs/event.png";
 import foodyImg from "../../assets/imgs/foody.png";
+import easyInvoice from "../../assets/imgs/mmeasyinvoice.png";
 import deliveryImg from "../../assets/imgs/pharmacy.png";
 import shoppingImg from "../../assets/imgs/mms-mini-shopping.png";
 import putuuImg from "../../assets/imgs/putuu-website.png";
@@ -15,25 +16,31 @@ const projectsData=[
     id:1,
     title:"Event Management System",
     image: <img src={dashboardImg} alt="" className='w-100 h-100 shadow-lg h-auto rounded-[8px]'  style={{ width: '350px', height: '250px' }} />,
-    url: "https://dailyneeditems.com/"
+    url: "https://www.youtube.com/watch?v=ygneN0IdU2E"
   },
   {
     id:2,
     title:"DNI(Daily Need Item) Ecommerce",
     image: <img src={shoppingImg} alt="" className='w-100 shadow-lg h-auto rounded-[8px]'  style={{ width: '350px', height: '250px' }} />,
-    url:"https://dnistore.com"
+    url:"https://dailyneeditems.com/"
   },
   {
     id:3,
     title:"Pharmacy Management System",
     image: <img src={deliveryImg} alt="" className='w-100 shadow-lg h-auto rounded-[8px]'  style={{ width: '350px', height: '250px' }} />,
-    url:"https://www.youtube.com/watch?v=MyteBgGZvAM"
+    url:"https://www.youtube.com/watch?v=SxG6PqzZ6Xc"
   },
   {
     id:4,
     title:"Restaurant Management System",
     image: <img src={foodyImg} alt="" className='w-100 shadow-lg h-auto rounded-[8px]'  style={{ width: '350px', height: '250px' }} />,
-    url:"https://www.youtube.com/watch?v=5FXDr1WAHp0&t=624s"
+    url:"https://www.youtube.com/watch?v=WIbH3aFYyFo"
+  },
+  {
+    id:5,
+    title:"MMEasy Invoice",
+    image: <img src={easyInvoice} alt="" className='w-100 shadow-lg h-auto rounded-[8px]'  style={{ width: '350px', height: '250px' }} />,
+    url:"https://www.youtube.com/watch?v=d7IWxBK85uM"
   }
 ];
 
