@@ -22,7 +22,8 @@ const projectsData=[
     id:2,
     title:"DNI(Daily Need Item) Ecommerce",
     image: <img src={shoppingImg} alt="" className='w-100 shadow-lg h-auto rounded-[8px]'  style={{ width: '350px', height: '250px' }} />,
-    url:"https://dailyneeditems.com/"
+    url:"",
+    git:"https://dailyneeditems.com/"
   },
   {
     id:3,
