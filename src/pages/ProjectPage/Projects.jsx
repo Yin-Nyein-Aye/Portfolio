@@ -40,7 +40,8 @@ const projectsData=[
     id:5,
     title:"MMEasy Invoice",
     image: <img src={easyInvoice} alt="" className='w-100 shadow-lg h-auto rounded-[8px]'  style={{ width: '350px', height: '250px' }} />,
-    url:"https://www.youtube.com/watch?v=d7IWxBK85uM"
+    url:"https://www.youtube.com/watch?v=d7IWxBK85uM",
+    git:"https://mmeasyinvoice.com/"
   }
 ];
 
